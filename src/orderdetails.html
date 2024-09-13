@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <title>Order Details</title>
+  </head>
+  <body class="font-poppins text-[#070625]">
+    <section id="content" class="relative max-w-[640px] h-screen w-full min-h-screen mx-auto flex flex-col bg-white overflow-x-hidden">
+      <!-- semua kontent berada dalam section ini -->
+      <nav aria-label="CTA-back" class="iconLeft absolute top-[60px] left-[18px] w-[42px] h-[42px] flex justify-center items-center rounded-full mr-[18px]"><img src="assets/images/Icon.svg" alt="Icon Left" class="object-contain w-full h-full" /></nav>
+      <section aria-label="content-booking-details" class="container w-full">
+        <header class="header w-full h-[249px] bg-custom-gradient flex justify-center pt-[67.5px]">
+          <h1 class="text-header font-semibold text-lg leading-[27px] text-[#FFFFFF]">Booking Details</h1>
+        </header>
+        <main class="content w-full flex justify-center bg-[#F8F8F8]">
+          <div class="containerCard mx-[18px] w-full bg-[#FFFFFF] mb-6 h-full px-4 -mt-[123px] flex flex-col gap-6 rounded-xl pb-4">
+            <section aria-label="hotel-information" class="hotelDetails flex items-center justify-between mt-4">
+              <h2 class="font-semibold text-base leading-6 text-[#070625]">Hotel Details</h2>
+              <a href="#" class="py-[6px] px-3 bg-[#F98D3F] text-[#F8F8F8] font-semibold text-xs rounded-[100px]">pending</a>
+            </section>
+            <section aria-label="card-booking" class="cardBooking w-full border border-[#DCDFE6] rounded-lg">
+              <section aria-label="order-id" class="orderID h-[53px] px-4 flex w-full justify-between items-center border-b border-[#DCDFE6]">
+                <h2 class="text-[#757C98] font-medium text-sm leading-[21px]">Order ID:</h2>
+                <h2 class="font-semibold text-sm leading-[21px]">092522</h2>
+              </section>
+              <section aria-label="information-room-details" class="room p-4">
+                <figure class="headerCardRoom flex items-center gap-3 w-full pb-4">
+                  <section aria-label="picture-room" class="aspect-square w-[72px] flex justify-center items-center overflow-hidden rounded-lg"><img src="assets/images/room.png" alt="Picture of Room Order" class="object-cover w-full h-full" /></section>
+                  <figcaption>
+                    <p class="font-semibold text-sm leading-[21px] text-[#4041DA]">23 Apr - 24 Apr (1 Night)</p>
+                    <h2 class="font-semibold text-base leading-[24px] line-clamp-1">Arcturu Val Resort & Hotel</h2>
+                    <section aria-label="location" class="flex items-center gap-1">
+                      <section aria-label="icon-location" class="iconlocation"><img src="assets/images/location.svg" alt="Location Icon" /></section>
+                      <p class="font-medium text-sm leading-[21px] text-[#757C98]">Emerarld Hill, Singapore</p>
+                    </section>
+                  </figcaption>
+                </figure>
+                <section aria-label="content-room" class="contentRegularRoom border-t border-x border-[#DCDFE6] p-4 rounded-t-lg">
+                  <article class="regularRoom flex items-center justify-between pb-4 border-b border-[#DCDFE6]">
+                    <section aria-label="max-in-room">
+                      <h2 class="font-semibold text-sm leading-[21px]">Regular Room</h2>
+                      <p class="font-medium text-sm leading-[21px] text-[#757C98]">Max. 2 Adult / Room</p>
+                    </section>
+                    <a href="#" class="font-semibold text-sm leading-[21px] text-[#4041DA]">Details</a>
+                  </article>
+                  <section aria-label="benefits-room" class="benefitRoom w-full flex flex-col gap-4 pt-4">
+                    <section aria-label="free-wifi" class="freeWifi flex items-center gap-1">
+                      <section aria-label="icon-wifi" class="flex items-center justify-center aspect-square w-6 overflow-hidden">
+                        <img src="assets/images/freewifi.svg" alt="Free Wifi Icon" class="object-contain w-full h-full" />
+                      </section>
+                      <p class="font-medium text-sm leading-[21px] text-[#757C98]">Free Wi-Fi</p>
+                    </section>
+                    <section aria-label="coffee-tea" class="coffeTea flex items-center gap-1">
+                      <section aria-label="icon-coffe-tea" class="flex items-center justify-center aspect-square w-6 overflow-hidden">
+                        <img src="assets/images/coffeetea.svg" alt="Coffe Tea Icon" class="object-contain w-full h-full" />
+                      </section>
+                      <p class="font-medium text-sm leading-[21px] text-[#757C98]">coffee & Tea</p>
+                    </section>
+                    <section aria-label="air-conditions" class="airConditions flex items-center gap-1">
+                      <section aria-label="icon-air-conditions" class="flex items-center justify-center aspect-square w-6 overflow-hidden">
+                        <img src="assets/images/airconditions.svg" alt="Air Conditions" class="object-contain w-full h-full" />
+                      </section>
+                      <p class="font-medium text-sm leading-[21px] text-[#757C98]">Air Conditions</p>
+                    </section>
+                  </section>
+                </section>
+                <section aria-label="refund-reschedule" class="refundReschedule mb-4 w-full h-[38px] bg-[#F93F6C] flex justify-center items-center rounded-b-lg">
+                  <p class="font-semibold text-xs leading-[18px] text-[#FFFFFF]">Refund & Reschedule not allowed</p>
+                </section>
+                <section aria-label="guest-name" class="guestName flex justify-between items-center">
+                  <p class="font-medium text-sm leading-[21px] text-[#757C98]">Guest Name:</p>
+                  <h2 class="font-semibold text-base leading-[24px]">Bimore Atreides</h2>
+                </section>
+              </section>
+              <article class="reservationDetails p-4 border-t border-[#DCDFE6]">
+                <h2 class="mb-3 font-semibold text-base leading-[24px]">Reservation Details</h2>
+                <section aria-label="contents-reservation details" class="flex flex-col gap-[6px] text-sm leading-[21px] font-semibold">
+                  <section aria-label="label-range" class="flex justify-between text-[#757C98]">
+                    <p>Check-in</p>
+                    <p>Check-out</p>
+                  </section>
+                  <section aria-label="range-date" class="flex justify-between">
+                    <p>Tue, 23 Apr 2024</p>
+                    <p>Wed, 24 Apr 2024</p>
+                  </section>
+                  <section aria-label="range-time" class="flex justify-between text-[#757C98]">
+                    <p>14:00 AM</p>
+                    <p>12:00 PM</p>
+                  </section>
+                </section>
+              </article>
+            </section>
+            <section aria-label="Location-booking" class="locationBooking flex flex-col gap-4">
+              <header class="locationDetails flex justify-between">
+                <h2 class="font-semibold text-lg leading-[27px]">Location Details</h2>
+                <p class="font-semibold text-sm leading-[21px] text-[#4041DA]">See Map</p>
+              </header>
+              <figure>
+                <section aria-label="picture-location" class="mb-4 w-full h-[180px] flex justify-center items-center overflow-hidden rounded-xl"><img src="assets/images/room.png" alt="Picture of Room Order" class="object-cover w-full h-full" /></section>
+                <figcaption class="font-medium text-xs leading-[18px] text-[#757C98]">Road Harmoni Permai No. 10, Seminyak, Bali, Ascent Brezee Regency 82189, Indonesia</figcaption>
+              </figure>
+            </section>
+          </div>
+        </main>
+      </section>
+      <section aria-label="sticky-action-customer-service-or-back-home" class="ctaContactBackHome flex flex-col w-full bottom-0 bg-[#FFFFFF] sticky py-6 px-[18px] font-semibold text-sm border-t border-[#DCDFE6]">
+        <a href="#" class="w-full h-12 flex justify-center items-center bg-[#4041DA] rounded-lg text-[#FFFFFF] leading-[21px]">Contact Customer Service</a>
+        <a href="#" class="w-full h-12 flex justify-center items-center mt-4 bg-[#4041DA17] rounded-lg text-[#4041DA] leading-[21px]">Back to Homepage</a>
+      </section>
+    </section>
+  </body>
+</html>
